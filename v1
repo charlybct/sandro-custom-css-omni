@@ -4,6 +4,39 @@
    Scope: uniquement l’écran tracking
    ========================================================== */
 
+/* ==========================================================
+   Fonts – SANDRO
+   ========================================================== */
+
+/* ==========================================================
+   Supreme – Bold Flat (Titres)
+   ========================================================== */
+
+@font-face {
+  font-family: "supremeBoldFlat";
+  src:
+    url("fonts/SupremeLLTT-BoldFlat.woff2") format("woff2"),
+    url("fonts/SupremeLLTT-BoldFlat.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================
+   Supreme – Regular (Body)
+   Fichier Variable Font (VF)
+   ========================================================== */
+
+@font-face {
+  font-family: "supremeRegular";
+  src:
+    url("fonts/SupremeLLTT-Regular_VF.woff2") format("woff2"),
+    url("fonts/SupremeLLTT-Regular_VF.woff") format("woff");
+  font-weight: 100 900; /* variable font */
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Scope page tracking */
 #appMain [ma-extension-screen-id="dss::tracking"]{
   /* Tokens Sandro fournis */

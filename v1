@@ -1,10 +1,4 @@
 /* ==========================================================
-   SANDRO – Manhattan Tracking (dss::tracking)
-   Custom CSS – v2 (tokens Sandro)
-   Scope: uniquement l’écran tracking
-   ========================================================== */
-
-/* ==========================================================
    Fonts – SANDRO
    ========================================================== */
 
@@ -36,6 +30,12 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* ==========================================================
+   SANDRO – Manhattan Tracking (dss::tracking)
+   Custom CSS – v2 (tokens Sandro)
+   Scope: uniquement l’écran tracking
+   ========================================================== */
 
 /* Scope page tracking */
 #appMain [ma-extension-screen-id="dss::tracking"]{
